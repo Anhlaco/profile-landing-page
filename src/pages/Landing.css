@@ -1,0 +1,26 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/images/bg-light.svg);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  padding: 80px 0;
+  font-family: Roboto Slab, sans-serif;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(102.94deg, #fa5252 40.66%, #dd2476 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.landing__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

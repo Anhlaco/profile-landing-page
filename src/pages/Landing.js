@@ -1,11 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import './Landing.css'
+
+import Member from '../components/Member/Member'
 const Landing = () => {
   return (
-    <div>
-      <h1>Landing</h1>
-      <div>
-        <Link to={'/main'}>Main Page</Link>
+    <div className='wrapper'>
+      <h1>wellcome to our team profile</h1>
+      <div className='landing__container'>
+        <Member />
       </div>
     </div>
   )
