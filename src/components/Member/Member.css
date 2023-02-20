@@ -1,0 +1,82 @@
+.member__link {
+  text-decoration: none;
+}
+
+.member__container {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  transition: all ease-in-out 0.5s;
+}
+
+.member__container:hover {
+  transform: scale(1.2);
+}
+
+.member__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: drop-shadow(0px 10px 22px rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+}
+
+.member__avatar:hover {
+  box-shadow: rgba(81, 94, 207, 0.3) 0px 54px 55px,
+    rgba(197, 49, 132, 0.2) 0px -12px 30px, rgba(243, 103, 58, 0.1) 0px 4px 6px,
+    rgba(219, 46, 122, 0.05) 0px 12px 13px;
+}
+
+.member__name {
+  font-family: Roboto Glab, sans-serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: black;
+  line-height: 3.4rem;
+}
+
+.member__skills {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: black;
+  opacity: 40%;
+}
+
+.member__social {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.member__social--item {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 45px;
+  background-color: #afcbd4;
+  cursor: pointer;
+}
+
+.member__social--item:hover {
+  opacity: 75%;
+}
+
+.social--item--fb {
+  color: #1773ea;
+}
+.social--item--tw {
+  color: #1c9cea;
+}
+.social--item--ytb {
+  color: #d21c1c;
+}
+.social--item--git {
+  color: black;
+}
